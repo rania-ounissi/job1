@@ -1,0 +1,28 @@
+/* Couleur de fond par défaut */
+body {
+    background-color: #88c1d0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Couleur de fond entre 1680px et 1920px */
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+    body {
+        background-color: #ffca4b;
+    }
+}
+
+/* Couleur de fond entre 1280px et 1680px */
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    body {
+        background-color: #275fa0;
+    }
+}
+
+/* Couleur de fond pour les résolutions inférieures à 1280px */
+@media screen and (max-width: 1280px) {
+    body {
+        background-color: #ffffff;
+    }
+}
